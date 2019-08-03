@@ -1,30 +1,26 @@
-
 $(document).ready(function(){
-	console.log("More World World");
-	// Weather get demonstration
 	// Post data demonstration
 	$("#submitBtn").click(function(){
-		console.log("More This is here now! ----->");
 		// getting form text data
-		var postData = $("#postData").val();
+		var userInput = $("#userInput").val();
 		 $.ajax({
-	            url: "https://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php",
+	            url: "http://httpbin.org/post",
 	            type:'POST',
 	            dataType: 'json',
-	            data: {'postData': postData},
+	            data: {'userInput': userInput},
 	            success:function(data){
 	            	// Call to output the results
-					//var temp=outputPostData(data);
-					console.log("helll33333333ooo");
-					//$("#postOutput").html(temp);
-					//$("#postOutput").val('');
+					var userData = outputData(data);
+					$("#outputSubmission").html(userData);
+					$("#outputSubmission").val('');
 				}
 	    })
 
 	});
-});
 
-function outputPostData(data){
-	console.log("helll33333333ooo");
-	return "<div><h4>" + data + "</h4></div>";
+});
+	
+// Output result from post demonstration
+function outputData(data){
+	return "<div><h4>Success: " + data.form.userInput + "</h4></div>";
 }
