@@ -1,0 +1,147 @@
+.scrollBox {
+  border: 15px, double, #00ff00;
+  margin: auto;
+  width: 600px;
+  height: 450px;
+  overflow: auto;
+}
+
+div.videoBox {
+  margin: 5px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #0000ff;
+  float: left;
+  background-color: #4cb5f5;
+  width: 180px;
+}
+
+div.videoBox img {
+  height: auto;
+  width: 100%;
+}
+
+div.caption {
+  padding: 14px;
+  text-align: center;
+}
+
+div.videoBox:hover {
+  border-width: 1px;
+  bored-style: dotted;
+  border-color: #ff0000;
+}
+
+.list {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  background: lightblue;
+  border-radius: 10px;
+}
+
+.contentDiv {
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: center;
+  width: 40%;
+  background: #b3c100;
+  border-radius: 10px;
+}
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+  background-color: #4cb5f5;
+  list-style-type: none;
+
+  position: -webkit-sticky;
+  position: sticky;
+  overflow: hidden;
+}
+
+ul.menu li {
+  float: left;
+}
+
+ul.menu li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+}
+
+ul.menu li a:hover {
+  background-color: #b7b8b6;
+}
+
+.on {
+  background-color: #34675c;
+}
+
+#slideshow {
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.row {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#column1 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 200px;
+}
+
+#column2 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 200px;
+}
+
+.icon {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  display: block;
+}
+
+.downloadBtn {
+  margin: auto;
+  font-size: 30px;
+  background: blue;
+  border-radius: 11px;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+}
+
+#submitBtn {
+  margin: auto;
+  margin-top: 10px;
+  font-size: 22px;
+  background: #34675c;
+  border-radius: 10px;
+  color: #ffffff;
+  display: block;
+}
