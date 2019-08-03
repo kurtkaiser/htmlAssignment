@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	// Post data demonstration
 	$("#submitBtn").click(function(){
-		console.log("helll222222llllooooo");
+		console.log("More helll222222llllooooo");
 		// getting form text data
 		var postData = $("#postData").val();
 		 $.ajax({
