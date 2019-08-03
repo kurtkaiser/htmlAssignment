@@ -1,9 +1,7 @@
 
 $(document).ready(function(){
-	console.log("helllllllooooo");
-
+	console.log("More World World");
 	// Weather get demonstration
-
 	// Post data demonstration
 	$("#submitBtn").click(function(){
 		console.log("More helll222222llllooooo");
