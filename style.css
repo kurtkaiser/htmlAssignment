@@ -1,3 +1,5 @@
+.slide {display:none;}
+
 .scrollBox {
   border: 15px, double, #00ff00;
   margin: auto;
@@ -6,17 +8,26 @@
   overflow: auto;
 }
 
-div.videoBox {
-  margin: 5px;
+.contentDiv {
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: center;
+  width: 40%;
+  background: #b3c100;
+  border-radius: 10px;
+}
+
+div.contentBox {
+  margin: 10px;
   border-style: dashed;
   border-width: 2px;
   border-color: #0000ff;
-  float: left;
   background-color: #4cb5f5;
-  width: 180px;
+  width: 40%;
 }
 
-div.videoBox img {
+div.contentBox img {
   height: auto;
   width: 100%;
 }
@@ -26,8 +37,8 @@ div.caption {
   text-align: center;
 }
 
-div.videoBox:hover {
-  border-width: 1px;
+div.contentBox:hover {
+F  border-width: 1px;
   bored-style: dotted;
   border-color: #ff0000;
 }
@@ -42,15 +53,8 @@ div.videoBox:hover {
   border-radius: 10px;
 }
 
-.contentDiv {
-  margin: auto;
-  margin-bottom: 15px;
-  padding: 5px;
-  text-align: center;
-  width: 40%;
-  background: #b3c100;
-  border-radius: 10px;
-}
+
+
 
 ul.menu {
   margin: 0;
@@ -84,9 +88,8 @@ ul.menu li a:hover {
   background-color: #34675c;
 }
 
-#slideshow {
-  margin: auto;
-}
+
+
 
 * {
   box-sizing: border-box;
