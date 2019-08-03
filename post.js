@@ -10,7 +10,7 @@ $(document).ready(function(){
 		// getting form text data
 		var postData = $("#postData").val();
 		 $.ajax({
-	            url: "http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php",
+	            url: "https://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php",
 	            type:'POST',
 	            dataType: 'json',
 	            data: {'postData': postData},
