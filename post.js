@@ -4,16 +4,16 @@ $(document).ready(function(){
 		// getting form text data
 		var userInput = $("#userInput").val();
 		 $.ajax({
-	            url: "http://httpbin.org/post",
+	            url: "https://httpbin.org/post",
 	            type:'POST',
 	            dataType: 'json',
 	            data: {'userInput': userInput},
 	            success:function(data){
 	            	// Call to output the results
-					var userData = outputData(data);
-					$("#outputSubmission").html(userData);
-					$("#outputSubmission").val('');
-				}
+			var userData = outputData(data);
+			$("#outputSubmission").html(userData);
+			$("#outputSubmission").val('');
+			}
 	    })
 
 	});
