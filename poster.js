@@ -4,7 +4,7 @@ $(document).ready(function(){
 	// Weather get demonstration
 	// Post data demonstration
 	$("#submitBtn").click(function(){
-		console.log("More helll222222llllooooo");
+		console.log("More This is here now! ----->");
 		// getting form text data
 		var postData = $("#postData").val();
 		 $.ajax({
